@@ -13,7 +13,7 @@ function map(array, callbackFunction)
 let array = [1,2,3,4,5]
 
 let callbackFunction = (value) =>{
-    return value+value
+    return value*value*value
 }
 
 console.log(map(array,callbackFunction))
