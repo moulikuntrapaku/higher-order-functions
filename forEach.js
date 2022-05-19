@@ -7,7 +7,7 @@ function forEach(array, callbackFunction)
 }
 
 
-let array = [1,2,3,4,5]
+let array = [1,2,3,4,5,6]
 
 let callbackFunction = (value) =>{
     console.log(value)
