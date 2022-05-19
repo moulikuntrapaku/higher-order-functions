@@ -13,7 +13,7 @@ function reduce(array, callbackFunction)
 let array = [1,2,3,4,5]
 
 let callbackFunction = (result,value) =>{
-    return result+value
+    return result*value
 }
 
 console.log(reduce(array,callbackFunction))
